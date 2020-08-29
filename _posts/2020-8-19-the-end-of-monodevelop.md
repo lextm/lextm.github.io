@@ -5,9 +5,8 @@ tags: MonoDevelop Mono Microsoft Linux Xamarin
 excerpt_separator: <!--more-->
 ---
 
-{% figure caption: "Copyright © Lex Li. River side, Montreal." %}
-![River side, Montreal](/images/riverside.jpg){:width="512px"}
-{% endfigure %}
+{% include image.html
+src="riverside.jpg" caption="Copyright © Lex Li. River side, Montreal." %}
 
 Microsoft abandoned [MonoDevelop GitHub repository](https://github.com/mono/monodevelop/graphs/contributors) earlier this year, and we can see no commit was pushed since February. However, there is no official announcement from any Microsoft channel on why that happened.
 <!--more-->
