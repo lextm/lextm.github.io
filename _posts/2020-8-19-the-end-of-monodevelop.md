@@ -3,12 +3,15 @@ layout: post
 title: The End of MonoDevelop
 ---
 
+![River side, Montreal](/images/riverside.jpg){:width="512px"}
+##### *Copyright (C) Lex Li. Riverside, Montreal.*
+
 Microsoft abandoned [MonoDevelop GitHub repository](https://github.com/mono/monodevelop/graphs/contributors) earlier this year, and we can see no commit was pushed since February. However, there is no official announcement from any Microsoft channel on why that happened.
 
 As a long time Mono observer, I wrote two blog posts in the past regarding MonoDevelop's status,
 
-* https://blog.lextudio.com/brief-history-of-monodevelop-93b1d4011978
-* https://blog.lextudio.com/status-of-monodevelop-xamarin-studio-253da80d022c
+* [Brief History of MonoDevelop](https://blog.lextudio.com/brief-history-of-monodevelop-93b1d4011978)
+* [Status of MonoDevelop/Xamarin Studio](https://blog.lextudio.com/status-of-monodevelop-xamarin-studio-253da80d022c)
 
 I will explain below why I don't think the sudden change is sudden, and provide my personal opinions.
 
@@ -38,8 +41,7 @@ That does not mean VS for Mac is impacted negatively, but good news,
 
 There might be some difficulty for VS for Mac extension developers, as they lose a good reference on how VS for Mac works internally, but there are alternative ways.
 
-> There was an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, but that initiative evolved as DotTheia on a separate road,
-> * https://github.com/dotdevelop/community/issues/15
+> There was an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, but [that initiative evolved as DotTheia on a separate road](https://github.com/dotdevelop/community/issues/15).
 
 This is the end of MonoDevelop, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
 
