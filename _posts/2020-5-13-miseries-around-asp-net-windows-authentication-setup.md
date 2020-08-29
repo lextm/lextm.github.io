@@ -13,7 +13,7 @@ ASP.NET developers should have some IIS knowledge. But how much can be enough to
 
 Surprisingly it is simple to set on ASP.NET side that you want to enable Windows authentication, as it is just merely a piece of setting in your `web.config`,
 
-```
+``` xml
 <configuration>
  <system.web>
   <authentication mode="Windows"/>
@@ -30,7 +30,7 @@ OK, now most ASP.NET developers should move on to IIS (or IIS Express), as [the 
 
 So finally on IIS, only Windows authentication is enabled in `applicationHost.config`,
 
-```
+``` xml
 <configuration>
  <system.webServer>
   <security>
@@ -51,7 +51,7 @@ What if we didn't enable Windows authentication on IIS, but use the default sett
 
 > Equivalent to
 
-```
+``` xml
 <configuration>
  <system.webServer>
   <security>
