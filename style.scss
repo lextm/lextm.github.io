@@ -106,6 +106,10 @@ strong, b {
   font-weight: bold;
 }
 
+figure {
+  margin: 20px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -116,7 +120,8 @@ img {
 figcaption {
   text-align: center;
   font-size: small;
-  margin: 5px;
+  margin: 10px;
+  color: $gray;
 }
 
 // Fixes images in popup boxes from Google Translate

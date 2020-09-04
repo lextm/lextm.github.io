@@ -3,6 +3,10 @@
   padding: 1px 1px 1px 1px;
 }
 
+div.highlight {
+  overflow: scroll;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
