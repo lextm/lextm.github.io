@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 {% include image.html
-src="riverside.jpg" caption="Copyright © Lex Li. River side, Montreal." %}
+src="riverside.jpg" caption="Copyright © Lex Li. River side, Montreal." width="512px" %}
 
 Microsoft abandoned [MonoDevelop GitHub repository](https://github.com/mono/monodevelop/graphs/contributors) earlier this year, and we can see no commit was pushed since February. However, there is no official announcement from any Microsoft channel on why that happened.
 <!--more-->

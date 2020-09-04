@@ -9,7 +9,11 @@
         {% else %}
             src="{{ site.baseurl }}/images/{{ include.src }}"
         {% endif %}
-    alt="{{ include.alt }}" width="512px">
+    alt="{{ include.alt }}"
+        {% if include.width %}
+            width="{{ include.width }}"
+        {% endif %}
+            >
     {% if include.url %}
     </a>
     {% endif %}

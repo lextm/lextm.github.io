@@ -5,7 +5,7 @@ tags: UWP UWP-Community-Toolkit Windows-10 Uno-Platform Mac
 excerpt_separator: <!--more-->
 ---
 {% include image.html
-src="downtown-montreal.jpg" caption="Copyright © Lex Li. Downtown Montreal." %}
+src="downtown-montreal.jpg" caption="Copyright © Lex Li. Downtown Montreal." width="512px" %}
 
 WinUI was developed as part of UWP and has been the foundation of many Windows 10 apps. [Uno Platform](https://platform.uno/docs/articles/intro.html) implements the same API surface on non-Windows platforms, so some applications can be migrated to iOS/Android/macOS (and even the Web via WebAssembly). But how difficult can such a migration be? In this series of posts, I will try to cover the story to migrate Files UWP, a medium size open source file explorer, to macOS.
 <!--more-->
