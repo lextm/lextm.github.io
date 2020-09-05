@@ -2,18 +2,8 @@
 layout: default
 ---
 
-{% assign tags = site.tags | sort %}
-{% for tag in tags %}
- <span class="site-tag">
-    <a href="/tag/{{ tag | first | slugify }}/"
-        style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
-            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-    </a>
-</span>
-{% endfor %}
-
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -26,4 +16,6 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+
+  <a href="{{ site.baseurl }}/archive" class="read-more">More Posts</a>
 </div>
