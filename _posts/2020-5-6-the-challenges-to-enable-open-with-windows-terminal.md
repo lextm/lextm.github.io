@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Challenges to Enable Open With Windows Terminal
-tags: Windows PowerShell "Windows Terminal"
+tags: Windows PowerShell Windows-Terminal
+permalink: /the-challenges-to-enable-open-with-windows-terminal-8090b2d92d5a
 excerpt_separator: <!--more-->
 ---
 {% include image.html

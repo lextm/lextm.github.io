@@ -2,6 +2,7 @@
 layout: post
 title: Everything You Might Need About IIS Server Header
 tags: Windows IIS nginx Microsoft
+permalink: /everything-you-might-need-about-iis-server-header-58ca268547be
 excerpt_separator: <!--more-->
 ---
 {% include image.html

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Miseries Around ASP.NET Windows Authentication Setup
-tags: IIS "Windows authentication" ASP.NET
+tags: IIS Windows-Authentication ASP.NET
+permalink: /miseries-around-asp-net-windows-authentication-setup-14e2e8522ad2
 excerpt_separator: <!--more-->
 ---
 {% include image.html

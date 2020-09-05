@@ -2,6 +2,7 @@
 layout: post
 title: Migrating Files UWP to Uno, Part I
 tags: UWP UWP-Community-Toolkit Windows-10 Uno-Platform Mac
+permalink: /migrating-files-uwp-to-uno-part-i-ee20c4b0084a
 excerpt_separator: <!--more-->
 ---
 {% include image.html

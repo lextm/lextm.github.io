@@ -2,6 +2,7 @@
 layout: post
 title: The End of MonoDevelop
 tags: MonoDevelop Mono Microsoft Linux Xamarin
+permalink: /the-end-of-monodevelop-80b383dab34b
 excerpt_separator: <!--more-->
 ---
 
@@ -45,6 +46,6 @@ There might be some difficulty for VS for Mac extension developers, as they lose
 
 > There was an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, but [that initiative evolved as DotTheia on a separate road](https://github.com/dotdevelop/community/issues/15).
 
-This is the end of MonoDevelop, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
+This is the end of MonoDevelop, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
 
 Stay tuned.
