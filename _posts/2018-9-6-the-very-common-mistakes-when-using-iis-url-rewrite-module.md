@@ -103,6 +103,8 @@ Stay tuned, as more common mistakes will be added soon.
 
 ### Sidenotes
 
+Microsoft should make `redirectType="Found"` the default value for rewrite actions, because such 302 redirection is not cached by browsers. You should manually add this to your `<action>` tags during rule development, so that you don't have to manully clear browser caches or resort to the private browsing mode.
+
 It is very important to learn how to troubleshoot URL rewriting rules. Usually [failed request tracing](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules) should be enabled during your experiments, so that you know why sometimes a rule fails.
 
 You also need to use [IIS Manager](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/testing-rewrite-rule-patterns) smartly, to test out the regular expressions.
