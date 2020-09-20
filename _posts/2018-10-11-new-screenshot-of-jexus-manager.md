@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NEw Screenshot of Jexus Manager
+title: New Screenshot of Jexus Manager
 tags: Visual-Studio .NET IIS
 permalink: /new-screenshot-of-jexus-manager-b23da44dee1f
 excerpt_separator: <!--more-->
