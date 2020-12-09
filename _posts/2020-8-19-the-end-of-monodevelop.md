@@ -44,8 +44,8 @@ That does not mean VS for Mac is impacted negatively, but good news,
 
 There might be some difficulty for VS for Mac extension developers, as they lose a good reference on how VS for Mac works internally, but there are alternative ways.
 
-> There was an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, but [that initiative evolved as DotTheia on a separate road](https://github.com/dotdevelop/community/issues/15).
+> There has been an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, so let's see what happens next there on [GitHub](https://github.com/dotdevelop/dotdevelop/issues).
 
-This is the end of MonoDevelop, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
+This is the end of an important MonoDevelop chapter, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
 
 Stay tuned.
