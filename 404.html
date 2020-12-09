@@ -1,0 +1,15 @@
+<html>
+  <head>
+    Redirect missing pages
+  </head>
+  <body>
+    <script type='text/javascript'>
+        function redirectHttpToHttps()
+        {
+          var newUrl = "https://blog.lextudio.com" + window.location.pathname + window.location.search;
+          window.location.href = newUrl;
+        }
+        redirectHttpToHttps();
+    </script>
+  </body>
+</html>
