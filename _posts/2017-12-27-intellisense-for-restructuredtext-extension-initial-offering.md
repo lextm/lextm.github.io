@@ -12,7 +12,7 @@ IntelliSense (or autocomplete in general) is one of the key features we prefer t
 This extension already provides some basic autocompletion functionality, which is the code snippets,
 
 {% include image.html
-src="code-snippets.png" caption="Figure 1: Code snippets like "note"." %}
+src="code-snippets.png" caption="Figure 1: Code snippets like 'note'." %}
 
 Once triggered when you input a keyword (even partially), Visual Studio Code would expand the template associated.
 
@@ -40,8 +40,8 @@ Third, open the folder once again, and see in OUTPUT panel the following,
 ``` txt
 Installing reStructuredText dependencies…
 Platform: darwin, x86_64
-Downloading package ‘reStructuredText Language Server for macOS (x64)’ (12454 KB) ……………….. Done!
-Installing package ‘reStructuredText Language Server for macOS (x64)’
+Downloading package 'reStructuredText Language Server for macOS (x64)' (12454 KB) ……………….. Done!
+Installing package 'reStructuredText Language Server for macOS (x64)'
 Finished
 ```
 
