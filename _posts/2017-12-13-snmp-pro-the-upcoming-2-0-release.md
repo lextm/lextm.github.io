@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \#SNMP Pro, The Upcoming 2.0 Release
+title: ! #SNMP Pro, The Upcoming 2.0 Release
 tags: SNMP
 permalink: /snmp-pro-the-upcoming-2-0-release-ca4a64943d01
 excerpt_separator: <!--more-->
@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 {% include image.html
 src="bund-xuhui.jpg" caption="Copyright © Lex Li. Bund, Xuhui, Shanghai." width="512px" %}
 
-#SNMP Pro was announced in April 2013 and reached its 1.0 release in February 2014. We will celebrate its fifth birthday soon in early 2018. But before that, let’s talk about the upcoming 2.0 release.
+#SNMP Pro was announced in April 2013 and reached its 1.0 release in February 2014. We will celebrate its fifth birthday soon in early 2018. But before that, let's talk about the upcoming 2.0 release.
 <!--more-->
 
 ### The Tough Road of Platform Upgrades
