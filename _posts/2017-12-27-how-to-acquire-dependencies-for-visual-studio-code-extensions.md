@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How to Write Your Language Server in C#
-tags: Visual-Studio .NET
-permalink: /how-to-write-your-language-server-in-c-d9302a44f694
+title: How to Acquire Dependencies for Visual Studio Code Extensions
+tags: Visual-Studio-Code
+permalink: /how-to-acquire-dependencies-for-visual-studio-code-extensions-9ca828cb168d
 excerpt_separator: <!--more-->
 ---
 
