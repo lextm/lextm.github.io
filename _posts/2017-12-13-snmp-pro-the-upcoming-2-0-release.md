@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! #SNMP Pro, The Upcoming 2.0 Release
+title: "#SNMP Pro, The Upcoming 2.0 Release"
 tags: SNMP
 permalink: /snmp-pro-the-upcoming-2-0-release-ca4a64943d01
 excerpt_separator: <!--more-->
