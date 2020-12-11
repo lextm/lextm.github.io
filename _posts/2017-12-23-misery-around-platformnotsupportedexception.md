@@ -16,7 +16,7 @@ It would be rare that a general API like File.ReadAllText throws such exceptions
 <!--more-->
 
 ### The New Pattern
-Let’s start with some code in #SNMP Library,
+Let's start with some code in #SNMP Library,
 
 ``` csharp
 public sealed class DESPrivacyProvider : IPrivacyProvider

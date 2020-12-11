@@ -32,7 +32,7 @@ You can see that by adapting to the new mechanism, the grammar file indeed has n
 Now I prefer to develop the grammar in Rider, which has great ANTLR support.
 
 {% include image.html
-src="antlr-rider.jpg" caption="Figure 1: ANTLR support in Rider." width="512px" %}
+src="antlr-rider.png" caption="Figure 1: ANTLR support in Rider." %}
 
 First, when you try to edit .g4 file, Rider prompts you to install the extension. Once installed, you get the ANTLR Preview and Tool Output panels.
 
