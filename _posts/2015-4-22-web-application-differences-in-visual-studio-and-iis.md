@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 
 Beginners of web development often find it strange to see their ASP.NET applications run differently in VS and on IIS. Well, they simply expect the same code base yields the same results, but what facts do they take for granted?
-
+<!--more-->
 ## Web Server Differences
 Do you know that old versions of Visual Studio uses ASP.NET Development Server? Do you know that Visual Studio 2010 and above bundles IIS Express? The two are the web servers behind the scene. You can check the project settings to see which one is used in your current web project, and learn more about the settings.
 
