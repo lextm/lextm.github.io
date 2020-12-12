@@ -10,10 +10,12 @@ An important feature that Inno Setup fails to provide is to uninstall old versio
 
 Every installer place some information in your registry in order to display an item in your Control Panel's Add/Remove Programs. In your Inno Setup script under `[Setup]` section, you should specify `AppVersion` and `AppID`. For example,
 
+{% raw %}
 ``` text
 AppVersion=6.0.0.1004
 AppID={{F768F6BA-F164-4599-BC26-DCCFC2F76855}
 ```
+{% endraw %}
 
 As a result, some registry items are added.
 
