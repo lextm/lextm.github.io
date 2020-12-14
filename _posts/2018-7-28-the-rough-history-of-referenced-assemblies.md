@@ -92,3 +92,5 @@ But .NET Core compilation no longer uses the old referenced assemblies folder.
 Now it is time to ship referenced assemblies in your NuGet package, and Oren Novotny wrote [a great blog post](https://oren.codes/2018/07/09/create-and-pack-reference-assemblies-made-easy/) to guide you.
 
 Enjoy it :)
+
+> Look for other interesting posts like this one? You can visit [the index page](https://blog.lextudio.com/all-in-one-for-the-legends-of-net-materials-43c374a01433).

@@ -18,6 +18,8 @@ The current "Rough History" posts should be seen as drafts for the upcoming Engl
 * [The Rough History of The So Many C# Compilers](https://blog.lextudio.com/the-rough-history-of-the-so-many-c-compilers-f3a85500707c)
 * [The Rough History of ASP.NET on IIS](https://blog.lextudio.com/the-rough-history-of-asp-net-on-iis-8f49e2bcefcd)
 * [The Rough History of Referenced Assemblies](https://blog.lextudio.com/the-rough-history-of-referenced-assemblies-7d752d92c18c)
+* [The Rough History of .NET Core Debuggers](https://blog.lextudio.com/the-rough-history-of-net-core-debuggers-b9fb206dc4aa)
+* [The Rough History of .NET Framework Reference Source](https://blog.lextudio.com/2020-12-13-the-rough-history-of-microsoft-reference-source)
 
 There are also some related posts I did in the past,
 
