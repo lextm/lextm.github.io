@@ -22,7 +22,7 @@ It was a few weeks ago that I noticed MongoDB guys launched a language server fo
 
 The language server part looks quite similar to other Python based language servers (like [this](https://github.com/palantir/python-language-server/)).
 
-The binaries are generated via GitHub Actions, and hosted as ZIP packages for macOS and Linux in [release notes](https://github.com/mongodb/snooty-parser/releases)
+The binaries are generated via GitHub Actions, and hosted as ZIP packages for macOS and Linux in [release notes](https://github.com/mongodb/snooty-parser/releases).
 
 But you don't need to download from GitHub manually, as Snooty has [a VSCode extension](https://github.com/mongodb/snooty-vscode) of its own. You won't find this extension on VSCode Marketplace, because the extension is currently for MongoDB internal usage only.
 
