@@ -14,7 +14,7 @@ WinUI was developed as part of UWP and has been the foundation of many Windows 1
 
 It is interesting that Microsoft keeps the classic Windows Explorer on Windows 10, instead of rewriting it in UWP. But a group of developers do make a UWP version file explorer, as below, and publish it as an open source project on GitHub.
 
-![](https://raw.githubusercontent.com/files-community/files-uwp/master/Files/Assets/FilesHome.png) {:width="512px"}
+![](https://raw.githubusercontent.com/files-community/files-uwp/master/Files/Assets/FilesHome.png)
 
 By checking its code base, we can see typical usage of XAML/MVVM, as well as file system related API usage. So nothing is terribly complex.
 

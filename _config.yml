@@ -73,6 +73,9 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+feed:
+  posts_limit: 25
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
