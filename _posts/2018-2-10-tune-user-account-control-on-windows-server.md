@@ -12,9 +12,9 @@ Microsoft seems to make some changes to suppress UAC prompts for administrators 
 
 Google does not return much information on how to configure UAC the way I like, so I have to do some digging on my own, and find out the following.
 
-    Search and open Local Security Policy from Start menu.
-    Expand the policy tree in the left panel to locate Security Settings | Local Policies | Security Options.
-    In the right panel, find "User Account Control: Admin Approval Mode for Built-in Administrator account".
+* Search and open Local Security Policy from Start menu.
+* Expand the policy tree in the left panel to locate `Security Settings | Local Policies | Security Options`.
+* In the right panel, find "User Account Control: Admin Approval Mode for Built-in Administrator account".
 
 The default value should be "Disabled", which I can easily toggle to "Enabled". Then a reboot of the machine can please me with everything in place.
 

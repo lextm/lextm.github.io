@@ -296,6 +296,26 @@ nav {
   background-color: $lightGray;
 }
 
+thead {
+  font-weight: bold;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:2px solid #ececec;
+}
+
+th{
+  border:2px solid #ececec;
+  padding: 5px;
+}
+
+td{
+  border:1px solid #ececec;
+  padding: 5px;
+}
+
 footer {
   padding: 20px 0;
   text-align: center;

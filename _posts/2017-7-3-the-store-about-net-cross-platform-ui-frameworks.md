@@ -54,8 +54,9 @@ But some of us do hope for cross platform UI frameworks. So this post shows what
 * Native control mapping.
 
 ### Unity/MonoGame
-|          | Comment      |
-| -------- | -------------|
+
+|          | Comment |
+| :------- | :------ |
 | Approach | Full custom rendering. |
 | Supported Platforms | Desktop and mobile (and more, like game consoles) |
 | OS Native Look and Feel | Almost none. |
@@ -68,6 +69,7 @@ Of course, that works fine for games, but obviously not all applications. Your a
 > Third party add-ons such as [noesisGUI](http://noesisengine.com/) amazingly add the possibility to build UI based on XAML and controls. An impressive approach.
 
 ### GTK#
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Native on Linux, emulating on others. |
@@ -84,6 +86,7 @@ However, you should know that GTK# apps only look native on Linux distributions.
 Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. [A new repo](https://github.com/GtkSharp/GtkSharp) has been created by a MonoGame maintainer Harry to fill the gaps.
 
 ### Windows Forms
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Native on Windows, emulating on others. |
@@ -104,6 +107,7 @@ More importantly the design of Windows Forms is suitable for desktop apps, but m
 > Note that Microsoft is going to support Windows Forms on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
 
 ### WPF/Avalonia/UWP/WinUI
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Full Custom Rendering. |
@@ -130,6 +134,7 @@ However, this approach has the disadvantages just like Unity/MonoGame, that all 
 >Note that Microsoft is going to support WPF on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
 
 ### Xamarin.Forms/Maui
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Native control mapping. |
@@ -160,6 +165,7 @@ Microsoft just announced [Maui](https://devblogs.microsoft.com/dotnet/introducin
 However, due to the Wuhan virus pandemic, its delivery date has been changed from Nov 2020 to Nov 2021.
 
 ### Uno Platform
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Native control mapping.* |
@@ -183,6 +189,7 @@ Starting from Microsoft Ignite 2019, Microsoft WinUI team started to [embrace Un
 Third party control vendor Syncfusion announced its [collaboration](https://www.syncfusion.com/blogs/post/collaboration-syncfusion-uno-platform.aspx) earlier in September 2019.
 
 ### xwt/Eto.Forms
+
 |          | Comment      |
 | -------- | -------------|
 | Approach | Native control mapping. |
