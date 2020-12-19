@@ -35,7 +35,7 @@ So finally a new folder called Files_Uno is added to [the repo](https://github.c
 
 ### Migrating the Code
 
-I copied the files from original Files folder to Files_Uno | Files_Uno.Shared and Files_Uno | Files_Uno.UWP. Then compile and run the UWP project to confirm that everything continues to work.
+I copied the files from original Files folder to `Files_Uno | Files_Uno.Shared` and `Files_Uno | Files_Uno.UWP`. Then compile and run the UWP project to confirm that everything continues to work.
 
 > Note that a lot of details are not listed here, as they are not quite important for macOS.
 
