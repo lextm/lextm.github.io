@@ -10,4 +10,4 @@ The opinions expressed herein are his own personal opinions and do not represent
 
 ### Contact me
 
-[support@lextm.com](mailto:support@lextm.com)
+[support@lextudio.com](mailto:support@lextudio.com)
