@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How A Visual Studio Code Linter Works
-tags: Visual-Studio-Code
-permalink: /how-a-visual-studio-code-linter-works-681c8388b0ea
+title: Who Should Be Contacted for PHP on IIS Issues
+tags: IIS
+permalink: /who-should-be-contacted-for-php-on-iis-issues-c80b90bd365
 excerpt_separator: <!--more-->
 ---
 It is very important to know how many processes participate in request handling of PHP on IIS.
