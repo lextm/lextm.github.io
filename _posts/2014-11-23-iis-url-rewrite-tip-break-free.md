@@ -94,7 +94,6 @@ Does it work? Nope. Then what's up?
 Alright, in fact we just need the final bit to be added, like
 
 ``` xml
-
 <rewrite>
     <globalRules>
         <rule name="GM" stopProcessing="true">
