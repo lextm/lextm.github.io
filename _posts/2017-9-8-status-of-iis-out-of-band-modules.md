@@ -16,6 +16,8 @@ Only a selected set has been upgraded,
 * ARR 3.0
 * URL Rewrite 2.0
 * HttpPlatformHandler 1.0
+* IIS CORS 1.0
+* ASP.NET Core (1.x/2.x, part of .NET Core) 
 
 ### Other Modules
 So you might wonder what happens to other modules. Simply speaking, they are obsolete (only for IIS 10), and you cannot use them on IIS 10. (However, they remain fully supported on IIS 7.x and 8.x.)
