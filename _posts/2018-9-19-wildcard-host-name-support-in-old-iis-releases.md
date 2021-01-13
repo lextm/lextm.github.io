@@ -34,7 +34,7 @@ Secondly, create a catch-all site (like the Default Web Site), who binds to `*:8
 
 > Here I use HTTP sites as examples for simplicity.
 
-Thirdly, create the actual content sites. One for `site1.com` binds to `*.8091` with no host name, while the other for `site2.com` to `*.8092` with no host name. Both sites can be tested now via the bindings given.
+Thirdly, create the actual content sites. One for `site1.com` binds to `*:8091` with no host name, while the other for `site2.com` to `*:8092` with no host name. Both sites can be tested now via the bindings given.
 
 Fourthly, on the catch-all site, create the following rules,
 
@@ -73,6 +73,6 @@ Lastly, set up ARR proxy mode at server level,
 
 ### Sitenotes
 
-The reverse proxy approach is slightly complex if we compare to wildcard host name support in IIS 10. Indeed, it takes more steps to set up, and it requires a few sites with no host name in their bindings, which might not look pleasant. Also when we compare the performance metrics, reverse proxy has more overhead (negligible in most cases).
+The reverse proxy approach is slightly complex if we compare to wildcard host name support in IIS 10. Indeed, it takes more steps to set up, and it requires a few sites with no host name in their bindings, which might not look pleasant. Also when we compare the performance metrics, reverse proxy has more overhead (but negligible in most cases).
 
 So, upgrade to IIS 10 if you can. Use the above steps only when you have to stick to an old release.
