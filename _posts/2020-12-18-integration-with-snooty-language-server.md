@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 {% include image.html
 src="marriage-place.jpg" caption="Copyright © Lex Li. A famous place to host marriage ceremonies, Montreal." width="512px" %}
 
-[I wrote a language server prototype](https://blog.lextudio.com/a-new-restructuredtext-project-112e9ae52acb) for reStructuredText in 2017 (let's call it rstantlr), which helped create some basic functionality in the reStructuredText VSCode extension. But in the next few years I didn't have too much time to extend it further.
+[I wrote a language server prototype](https://blog.lextudio.com/a-new-restructuredtext-project-112e9ae52acb) for reStructuredText in 2017 (let's call it rst-antlr), which helped create some basic functionality in the reStructuredText VSCode extension. But in the next few years I didn't have too much time to extend it further.
 
 That approach has several limitations,
 
@@ -29,11 +29,11 @@ But you don't need to download from GitHub manually, as Snooty has [a VSCode ext
 Snooty implements several useful language server features, such as diagnostics (linting) and document links.
 
 ### Integration Plan
-There are three things I think Snooty should implement so as to replace rstantlr,
+There are three things I think Snooty should implement so as to replace rst-antlr,
 
-* The self-contained binaries Snooty team chose are significantly big, just like rstantlr deployment packages.
+* The self-contained binaries Snooty team chose are significantly big, just like rst-antlr deployment packages.
 * Snooty does not have a Windows package.
-* Snooty does not support autocompletion like rstantlr.
+* Snooty does not support autocompletion like rst-antlr.
 
 In the meantime, I finally received a reply from Snooty team and learned many important pieces of information on their priorities.
 
@@ -61,7 +61,7 @@ Release 1.8.3 was soon shipped to address that. The crash turned out to be quite
 #### Release 1.8.4
 The final release this week successful accomplished my initial plan, by delivering the same autocompletion of file names for `:doc:` directive.
 
-As a result, finally I could delete everything around rstantlr from the extension to make it clean again.
+As a result, finally I could delete everything around rst-antlr from the extension to make it clean again.
 
 ### The Future
 All changes I made are planned to send to MongoDB team via pull requests and they can merge it after further verification. They might take over the `snooty` package from me, and ship their releases.
