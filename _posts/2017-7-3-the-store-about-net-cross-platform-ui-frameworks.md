@@ -214,3 +214,9 @@ Whether the two frameworks can grow as mature as Xamarin.Forms is uncertain. The
 > * You might use QtSharp to develop a Qt app, and a new project called [Qml.Net](https://github.com/pauldotknopf/Qml.Net) is another option.
 
 > Look for other interesting posts like this one? You can visit [the index page](https://blog.lextudio.com/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+
+> **Some Incomplete Information on Blazor/Electron**
+>
+> As Electron has been popular for years to build cross platform desktop applications (VSCode, Azure Data Studio and so on), it might be a good option to develop your next desktop app with Electron and Blazor.
+>
+> At this moment you need to use a third party framework such as [Electron.NET](https://github.com/ElectronNET/Electron.NET). Not sure if Microsoft is going to build its own tooling to simplify in this area.
