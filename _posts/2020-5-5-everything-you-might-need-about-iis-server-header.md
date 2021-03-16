@@ -25,7 +25,7 @@ src="normal-iis-200-response.png" caption="Figure 1 Normal IIS 200 Response" %}
 
 > Also note that some security scan might indicates revealing your web server type is an issue and you should remove such Server headers. However, it is really not a solid suggestion, because the server type can be detected from other response behaviors, so you cannot really hide that.
 
-Alternative Server Header in Some Error Responses
+### Alternative Server Header in Some Error Responses
 
 But can IIS return a different Server header? Sure. If we intentionally send a broken request, we can trigger a completely different response Server header like in Figure 2,
 
