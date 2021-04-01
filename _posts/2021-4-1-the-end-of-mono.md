@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 If today you still run an application on Mono, I suggest you assert again whether that decision is sustainable. A look back on the Mono history can easily tell that it can be a risky platform to use in 2021 and beyond.
+<!--more-->
 
 ## 2000-2003
 Though limited information is publicly available, we might assume the passion to bring C# to Linux was the primary driving force.
