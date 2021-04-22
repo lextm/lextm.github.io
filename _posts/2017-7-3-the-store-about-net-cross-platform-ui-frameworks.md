@@ -133,7 +133,9 @@ However, this approach has the disadvantages just like Unity/MonoGame, that all 
 >
 >Note that Microsoft is going to support WPF on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
 
-### Xamarin.Forms/Maui
+> Avalonia isn't a strict WPF clone, and JetBrains seems to invest a lot here by writting [dotTrace/dotMemory/dotCover user interface in it](https://blog.jetbrains.com/dotnet/2021/04/22/dottrace-and-dotmemory-bring-new-home-screen/).
+
+### Xamarin.Forms/MAUI
 
 |          | Comment      |
 | -------- | -------------|
@@ -160,9 +162,7 @@ Quite a lot of third party vendors are now offering Xamarin.Forms controls, so t
 
 This momentum also makes it appealing to use this framework.
 
-Microsoft just announced [Maui](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/), a major upgrade of Xamarin.Forms, as a new option to build cross platform applications.
-
-However, due to the Wuhan virus pandemic, its delivery date has been changed from Nov 2020 to Nov 2021.
+Microsoft just announced [MAUI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/), a major upgrade of Xamarin.Forms, as a new option to build cross platform applications. However, due to the pandemic, its delivery date has been changed from Nov 2020 to Nov 2021. You might install a .NET 6 Preview right now and play with it.
 
 ### Uno Platform
 
