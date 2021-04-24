@@ -29,6 +29,10 @@ The 7.0.0.0 version worked pretty fine for years, but suddenly things started to
 
   This assembly by default reads/writes the IIS Express configuration file, so your code suddenly behaves differently (not against full IIS any more).
 
+### Solution
+
 Since you probably don't want to uninstall IIS Express (you might need it some day), the remaining option at compile time to resolve the issues is to force your application to use version `7.0.0.0` as reference explicitly.
 
-And then use assembly redirection in `app.config` (or `web.config`) to load only version `7.0.0.0` at runtime. 
+And then use assembly redirection in `app.config` (or `web.config`) to load only version `7.0.0.0` at runtime.
+
+> But if your web app is being hosted on IIS Express, you might need [further changes](https://stackoverflow.com/a/11558360/11182) to IIS Express specific `aspnet.config`.
