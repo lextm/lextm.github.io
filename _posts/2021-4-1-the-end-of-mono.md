@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The End of Mono
-tags: Mono Microsoft Linux Xamarin
+tags: Mono Microsoft Linux Xamarin .NET
 excerpt_separator: <!--more-->
 ---
 
