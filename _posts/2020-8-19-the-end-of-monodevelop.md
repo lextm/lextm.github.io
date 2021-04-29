@@ -46,6 +46,8 @@ There might be some difficulty for VS for Mac extension developers, as they lose
 
 > There has been an attempt to revive MonoDevelop by the community, or at least keep it as it was for the existing users, so let's see what happens next there on [GitHub](https://github.com/dotdevelop/dotdevelop/issues).
 
+If you have to stay on Linux and want to program in .NET, please switch to VSCode or Rider.
+
 This is the end of an important MonoDevelop chapter, and I start to wonder what might happen to Mono when .NET 5 is released later this year. I will write about that when the time is right.
 
 Stay tuned.
