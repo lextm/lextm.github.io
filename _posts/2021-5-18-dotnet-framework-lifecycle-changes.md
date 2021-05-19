@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 
 In late April, Microsoft announced [an important change](https://devblogs.microsoft.com/dotnet/net-framework-4-5-2-4-6-4-6-1-will-reach-end-of-support-on-april-26-2022/) on .NET Framework support policies, and a quick summary is as below,
 
-* Stop using .NET Framework 4.5.2/4.6/4.6.1 as they will reach end of life on April 26, 2022.
+* Reduce your usage of .NET Framework 4.5.2/4.6/4.6.1 as they will reach end of life on April 26, 2022.
 
   > Yes, less than a year now if you have to migrate.
 
@@ -32,6 +32,6 @@ You can read [the latest version of the support policies page](https://docs.micr
 
 ### Takeaways
 
-Keep in mind migration is not effortless, and sometimes can be quite challenging to carry out, so whether to upgrade to a newer .NET Framework version, or .NET Core, plan early and start early.
+Migration is not effortless, and sometimes can be quite challenging to carry out, so whether to upgrade to a newer .NET Framework version, or .NET Core, plan early and start early.
 
 > If you need assistance on such migration, you can reach out to us at [LeXtudio](mailto:support@lextudio.com).
